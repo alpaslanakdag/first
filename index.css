@@ -1,0 +1,8 @@
+/* Button */
+.button{
+    background: #d52349;
+	color: #fff !important;
+    cursor: pointer;
+    text-align: center;
+    font-size: 1.1em;
+}
