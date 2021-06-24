@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <!-- JavaScript Bundle with Popper -->
+        <link rel="stylesheet" href="index.css" />
+        <script src="https://smtpjs.com/v3/smtp.js"></script> 
+        <script src="mail.js"></script>
+        <p>
+            <h2>Send me a message</h2>
+        </p>
+    </head>
+    <body>
+        <div >
+            
+            <input type="text" id="name" placeholder="Name" style="width:300px;" required>
+        </div>
+        <div>
+            <input type="text" id="email" placeholder="Email" style="width:300px;" required>
+        </div>
+          
+          
+          </div>
+          
+          
+          
+          
+          
+          <div >
+            <div >
+              
+            </div>
+            <textarea   name="subject" placeholder="Write something.." style="height:200px" required></textarea>
+
+            
+          </div>
+          <form method="post">
+          <div>
+            <button class="btn btn-info"  value="Send" onclick="sendmail()"></button>
+          </div>
+        </form>
+    </body>
+</html>
