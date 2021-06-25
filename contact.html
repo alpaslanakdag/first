@@ -12,32 +12,20 @@
         </p>
     </head>
     <body>
+      <form method="POST" action="https://formspree.io/f/xzbyvzyb">
         <div >
-            
-            <input type="text" id="name" placeholder="Name" style="width:300px;" required>
+            <input type="text" id="name"  name="From" placeholder="Name" style="width:300px;" required>
         </div>
         <div>
-            <input type="text" id="email" placeholder="Email" style="width:300px;" required>
+            <input type="email" id="email" name="To" placeholder="Email" style="width:300px;" required>
         </div>
-          
-          
-          </div>
-          
-          
-          
-          
-          
           <div >
-            <div >
-              
-            </div>
-            <textarea   name="subject" placeholder="Write something.." style="height:200px" required></textarea>
-
-            
+            <textarea   name="Message" placeholder="Write something.." style="height:200px" required></textarea>
           </div>
-          <form method="post">
+         
           <div>
-            <button class="btn btn-info"  value="Send" onclick="sendmail()"></button>
+            <button class="btn btn-info"   type="submit">Send</button>
+            <a class="btn btn-warning" href="index.html">Home Page</a>
           </div>
         </form>
     </body>
